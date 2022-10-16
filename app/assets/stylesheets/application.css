@@ -156,6 +156,30 @@ input[type=submit]:hover {
   opacity: 0.5;
 }
 
+@media(max-width: 768px) {
+  input[type=text] {
+    width: 30vh;
+  }
+
+  input[type=submit] {
+    width: 30vh;
+  }
+}
+
+@media(max-width: 576px) {
+  input[type=text] {
+    width: 20vh;
+  }
+
+  input[type=submit] {
+    width: 20vh;
+  }
+}
+
+
+input[type=submit]
+
+
 /* Add a black background color to the top navigation */
 .topnav {
   font-family: 'Shadows Into Light', cursive;
