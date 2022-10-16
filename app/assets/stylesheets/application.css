@@ -36,6 +36,18 @@ body {
   scroll-behavior: auto;
 }
 
+@media(max-width: 768px) {
+  .banner {
+    height: 110vh;
+  }
+}
+
+@media(max-width: 576px) {
+  .banner {
+    height: 110vh;
+  }
+}
+
 h1 {
   font-size: 18vh;
   font-family: 'Shadows Into Light', cursive;
@@ -152,7 +164,6 @@ input[type=submit]:hover {
   color: rgb(230, 230, 230);
 }
 
-
 /* Style the links inside the navigation bar */
 .topnav a {
   float: right;
@@ -161,6 +172,18 @@ input[type=submit]:hover {
   padding: 2vh 2vh;
   text-decoration: none;
   font-size: 3vh;
+}
+
+@media(max-width: 768px) {
+  .topnav a {
+    font-size: 2vh
+  }
+}
+
+@media(max-width: 576px) {
+  .topnav a {
+    font-size: 1.75vh;
+  }
 }
 
 /* Change the color of links on hover */
