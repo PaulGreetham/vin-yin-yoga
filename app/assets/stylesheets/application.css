@@ -13,3 +13,166 @@
  *= require_tree .
  *= require_self
  */
+
+
+ body {
+  background-color: white;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.banner {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("homepage.jpg");
+  scroll-behavior: auto;
+}
+
+h1 {
+  font-size: 18vh;
+  font-family: 'Shadows Into Light', cursive;
+  color: rgb(230, 230, 230);
+  text-align: center;
+  margin: 0%;
+  padding-top: 0.5em;
+}
+
+@media(max-width: 768px) {
+  h1 {
+    font-size: 12vh;
+    padding-top: 1.75em;
+  }
+}
+
+@media(max-width: 576px) {
+  h1 {
+    font-size: 10vh;
+    padding: 0.8em;
+  }
+}
+
+h4 {
+  font-size: 7vh;
+  font-family: 'Shadows Into Light', cursive;
+  color: rgb(230, 230, 230);
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  font-size: 4vh;
+  font-family: 'Shadows Into Light', cursive;
+  color: rgb(230, 230, 230);
+  text-align: center;
+  margin: 0;
+}
+
+@media(max-width: 768px) {
+  h4 {
+    font-size: 5vh;
+  }
+
+  p {
+    font-size: 4vh;
+  }
+}
+
+@media(max-width: 576px) {
+  h4 {
+    font-size: 4vh;
+  }
+
+  p {
+    font-size: 3vh;
+  }
+}
+
+.newsletter-submit {
+  text-align: center;
+}
+
+.newsletter-name-email {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+/* Style the input elements and the submit button */
+input[type=text] {
+  font-family: 'Shadows Into Light', cursive;
+  width: 60vh;
+  padding: 1.5vh;
+  margin: 1vh 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 25px;
+  opacity: 0.5;
+  text-align: center;
+}
+
+input[type=submit] {
+  font-family: 'Shadows Into Light', cursive;
+  width: 60vh;
+  padding: 1.5vh;
+  margin: 1vh 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 25px;
+  text-align: center;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  font-family: 'Shadows Into Light', cursive;
+  background-color: black;
+  color: rgb(230, 230, 230);
+  border: none;
+  opacity: 0.8;
+}
+
+input[type=submit]:hover {
+  font-family: 'Shadows Into Light', cursive;
+  opacity: 0.5;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  font-family: 'Shadows Into Light', cursive;
+  overflow: hidden;
+  opacity: 1;
+  color: rgb(230, 230, 230);
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: rgb(230, 230, 230);
+  text-align: center;
+  padding: 2vh 2vh;
+  text-decoration: none;
+  font-size: 3vh;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(230, 230, 230);
+  color: black;
+  border-radius: 25px;
+  opacity: 0.4;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: gray;
+  color: rgb(230, 230, 230);
+}
