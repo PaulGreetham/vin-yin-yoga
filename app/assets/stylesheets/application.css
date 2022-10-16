@@ -196,6 +196,7 @@ input[type=submit]
   padding: 2vh 2vh;
   text-decoration: none;
   font-size: 3vh;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 @media(max-width: 768px) {
